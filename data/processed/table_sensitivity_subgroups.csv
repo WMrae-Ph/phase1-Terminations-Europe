@@ -1,0 +1,9 @@
+population,indications,analysis,n,pre %,post %,OR crude,OR adjusted
+Healthy volunteers,all indications,A,3491,4.7,9.0,2.00 (1.52–2.63),1.86 (1.41–2.47)
+Healthy volunteers,all indications,B 3-year window,3150,4.1,8.9,2.29 (1.69–3.11),2.14 (1.57–2.92)
+Healthy volunteers,excluding oncology,A,3411,4.6,8.9,2.01 (1.52–2.66),1.85 (1.39–2.46)
+Healthy volunteers,excluding oncology,B 3-year window,3087,4.2,8.7,2.20 (1.62–2.99),2.05 (1.49–2.80)
+Patients,all indications,A,3956,14.5,35.3,3.21 (2.75–3.75),3.04 (2.58–3.58)
+Patients,all indications,B 3-year window,4153,6.9,10.1,1.51 (1.20–1.90),1.74 (1.36–2.21)
+Patients,excluding oncology,A,1560,9.8,22.0,2.60 (1.94–3.49),2.48 (1.82–3.36)
+Patients,excluding oncology,B 3-year window,1603,5.6,9.9,1.87 (1.25–2.80),1.71 (1.13–2.59)

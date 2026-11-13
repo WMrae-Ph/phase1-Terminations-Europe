@@ -1,0 +1,10 @@
+population,sponsor,trials,terminated %,CI low,CI high,safety-related %,safety CI,healthy volunteers %,note
+All,Academic / other,1630,13.7,12.1,15.4,1.78,1.24–2.54,31.9,
+All,Government / network / other,76,7.9,3.7,16.2,1.32,0.23–7.08,31.6,small group
+All,Industry,6254,14.8,13.9,15.7,1.26,1.01–1.57,50.8,
+Healthy volunteers,Academic / other,520,7.1,5.2,9.7,1.35,0.65–2.75,100.0,
+Healthy volunteers,Government / network / other,24,0.0,0.0,13.8,0.0,0.00–13.80,100.0,small group
+Healthy volunteers,Industry,3174,6.4,5.6,7.3,0.79,0.53–1.16,100.0,
+Patients,Academic / other,1110,16.8,14.7,19.1,1.98,1.31–2.98,0.0,
+Patients,Government / network / other,52,11.5,5.4,23.0,1.92,0.34–10.12,0.0,small group
+Patients,Industry,3080,23.4,22.0,25.0,1.75,1.35–2.28,0.0,

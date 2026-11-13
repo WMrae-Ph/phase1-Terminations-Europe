@@ -1,0 +1,51 @@
+retest_id,review_id,nct_id,retest_primary_original,retest_safety_original,retest_other_original,retest_comment_original,first_round_primary,first_round_safety,retest_primary_corrected_doc,retest_safety_corrected_doc
+1,163,NCT03329885,Safety,yes,,,Safety,yes,Safety,yes
+2,86,NCT04394286,Strategic/Business,no,,,Strategic/Business,no,Strategic/Business,no
+3,22,NCT04033159,Other,no,,,Safety,yes,Safety,yes
+4,185,NCT03358407,Safety,yes,,,Safety,yes,Safety,yes
+5,80,NCT04570631,Strategic/Business,no,,,Strategic/Business,no,Strategic/Business,no
+6,165,NCT03769181,Other,no,,,Efficacy/Futility,no,Efficacy/Futility,no
+7,132,NCT00860353,Strategic/Business,no,,,Strategic/Business,no,Strategic/Business,no
+8,82,NCT04915846,Safety,yes,,,Safety,yes,Safety,yes
+9,179,NCT04895748,Strategic/Business,no,,,Strategic/Business,no,Strategic/Business,no
+10,138,NCT01242943,Other,no,,,Other,no,Other,no
+11,59,NCT00364429,Not stated,no,,ambiguous,Not stated,no,Not stated,no
+12,2,NCT01666600,Other,no,,,Recruitment,no,Efficacy/Futility,no
+13,90,NCT02566603,Other,no,,,Other,no,Other,no
+14,13,NCT03248479,Efficacy/Futility,no,,,Efficacy/Futility,no,Efficacy/Futility,no
+15,39,NCT02131506,Safety,yes,,,Safety,yes,Safety,yes
+16,37,NCT03342859,Safety,yes,,,Safety,yes,Safety,yes
+17,26,NCT03879278,Safety,yes,,,Safety,yes,Safety,yes
+18,104,NCT03722108,Safety,yes,,,Safety,yes,Safety,yes
+19,157,NCT05338632,Recruitment,no,,,Recruitment,no,Recruitment,no
+20,173,NCT04002310,Other,no,,,Other,no,Safety,yes
+21,89,NCT04870164,Safety,yes,,,Safety,yes,Safety,yes
+22,216,NCT02603172,Safety,yes,,,Safety,yes,Safety,yes
+23,164,NCT01808482,Efficacy/Futility,no,,,Efficacy/Futility,no,Efficacy/Futility,no
+24,105,NCT01160926,Safety,yes,,,Safety,yes,Safety,yes
+25,72,NCT01237678,Safety,yes,,,Safety,yes,Safety,yes
+26,174,NCT01476085,Other,no,,,Other,no,Other,no
+27,214,NCT04349280,Safety,yes,,,Safety,yes,Safety,yes
+28,110,NCT01212887,Safety,yes,,,Safety,yes,Safety,yes
+29,74,NCT03330405,Other,no,,,Other,no,Other,no
+30,146,NCT00713765,Other,no,,,Not stated,no,Not stated,no
+31,33,NCT02240355,Safety,yes,,,Safety,yes,Safety,yes
+32,204,NCT04455230,Strategic/Business,no,,,Funding,no,Funding,no
+33,218,NCT03139500,Safety,yes,,,Safety,yes,Safety,yes
+34,35,NCT04504435,Efficacy/Futility,no,,,Efficacy/Futility,no,Efficacy/Futility,no
+35,112,NCT01195480,Efficacy/Futility,no,,,Efficacy/Futility,no,Efficacy/Futility,no
+36,78,NCT02055924,Safety,yes,,,Safety,yes,Safety,yes
+37,140,NCT04458311,Strategic/Business,no,,,Efficacy/Futility,no,Efficacy/Futility,no
+38,101,NCT02862431,Strategic/Business,no,,,Other,no,Other,no
+39,170,NCT04870112,Other,no,,,Sponsor decision (unspecified),no,Sponsor decision (unspecified),no
+40,120,NCT03752177,Safety,yes,,,Safety,yes,Safety,yes
+41,215,NCT05933070,Recruitment,no,,,Recruitment,no,Recruitment,no
+42,45,NCT01573247,Safety,yes,,,Safety,yes,Safety,yes
+43,211,NCT04287894,Safety,yes,,,Safety,yes,Safety,yes
+44,191,NCT03468777,Other,no,,,Other,no,Other,no
+45,186,NCT03605212,Other,no,,,Other,no,Other,no
+46,172,NCT04544995,Sponsor decision (unspecified),no,,,Sponsor decision (unspecified),no,Sponsor decision (unspecified),no
+47,130,NCT01820325,Safety,yes,,,Safety,yes,Safety,yes
+48,124,NCT04424641,Other,no,,,Other,no,Other,no
+49,16,NCT02317419,Safety,yes,,,Safety,yes,Safety,yes
+50,121,NCT03666988,Safety,yes,,,Safety,yes,Safety,yes

@@ -1,0 +1,13 @@
+ctis_code,ctis_label,ctgov_equivalent,status_group,note
+1,Under evaluation,NOT_YET_RECRUITING,not_started,Application still under assessment
+2,"Authorised, recruitment pending",NOT_YET_RECRUITING,not_started,
+3,"Authorised, recruiting",RECRUITING,ongoing,
+4,"Ongoing, recruiting",RECRUITING,ongoing,
+5,"Ongoing, recruitment ended",ACTIVE_NOT_RECRUITING,ongoing,
+6,Temporarily halted,SUSPENDED,ongoing,Halt notified by sponsor; may restart
+7,Suspended,SUSPENDED,ongoing,Suspended by a member state (corrective measure)
+8,Ended,COMPLETED or TERMINATED,ended,Split by the member-state event EARLY_TERMINATION (see rule in notebook 01 Part C)
+9,Expired,WITHDRAWN,not_started,Authorisation lapsed because no participant was included in time
+10,Revoked,TERMINATED,ended,Authorisation revoked by member state(s) (corrective measure)
+11,Not authorised,WITHDRAWN,not_started,No authorisation; trial cannot start
+12,Cancelled,WITHDRAWN,not_started,Application withdrawn / trial cancelled before start

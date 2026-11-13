@@ -1,0 +1,11 @@
+case_id,decision,decided_by,decision_date,comment
+B1,keep current assignment (target infection),domain expert (pharmacist),2026-10-28,Indication describes the therapeutic target; healthy volunteers is a separate feature
+B2,keep current assignment (Respiratory),domain expert (pharmacist),2026-10-28,
+B3,keep current assignment (Nervous system),domain expert (pharmacist),2026-10-28,Consistent with ATC group N (nervous system) which includes analgesics and anaesthetics
+B4,keep combined group,domain expert (pharmacist),2026-10-28,Consistent with ATC group N (nervous system: neurology and psychiatry)
+B5,keep current assignment (organ-based),domain expert (pharmacist),2026-10-28,
+B6,keep current assignment (Immunology & inflammation),domain expert (pharmacist),2026-10-28,
+B7,keep in Other diseases,domain expert (pharmacist),2026-10-28,Too small for a separate group
+B8,keep current assignment (Oncology),domain expert (pharmacist),2026-10-28,WHO classification: myeloid neoplasms (MDS myelofibrosis/MPN mastocytosis)
+B9,keep group of the named disease,domain expert (pharmacist),2026-10-28,Always report together with the healthy-volunteer feature
+B10,keep current assignment (Metabolic & endocrine),domain expert (pharmacist),2026-10-28,NAFLD/NASH renamed MASLD/MASH (metabolic dysfunction-associated) in 2023; new terms added to the override pattern

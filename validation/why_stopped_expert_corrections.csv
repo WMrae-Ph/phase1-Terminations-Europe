@@ -1,0 +1,11 @@
+correction_id,review_round,review_id,field,old_value,new_value,reason,source,decision_date
+K1,main review,156,expert_primary,Strategic/Business,Strategic/Business,"Confirmed (no change): a reason is given (development discontinued), therefore not 'Sponsor decision (unspecified)'",expert answer to query a),2026-11-04
+K2,hold-out,23,expert_primary,Sponsor decision (unspecified),Strategic/Business,Harmonised with main review ID 156 (identical wording): a reason is given (development discontinued),expert answer to query a),2026-11-04
+K3,hold-out,24,expert_primary,Sponsor decision (unspecified),Strategic/Business,Harmonised with main review ID 156 (same wording): a reason is given (development discontinued),expert answer to query a),2026-11-04
+K4,hold-out,5,expert_primary,Safety,COVID-19,"D42: pandemic-related termination; participant safety risk from COVID-19 infection, not safety of the investigational product",expert answer to query b),2026-11-04
+K5,hold-out,5,expert_safety_related,yes,no,D42 (see K4),expert answer to query b),2026-11-04
+K6,hold-out,5,expert_comment,,participant safety (COVID),Comment added on expert request,expert answer to query b),2026-11-04
+K7,main review,173,expert_primary,Other,Safety,D39: benefit-risk as reason for termination [quoted registry wording removed],corrected review file (why_stopped_review_blinded_3 of 4 Nov 2026),2026-11-04
+K8,main review,173,expert_safety_related,no,yes,D39 (see K7),corrected review file,2026-11-04
+K9,main review,169,expert_primary,Other,Safety,Protocol termination criteria met during dose escalation; comment 'ambiguous' kept,corrected review file,2026-11-04
+K10,main review,169,expert_safety_related,no,yes,See K9,corrected review file,2026-11-04

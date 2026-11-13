@@ -1,0 +1,20 @@
+,OR,CI low,CI high,p
+indication: Cardiovascular,0.94,0.562,1.572,0.813
+indication: Healthy volunteers – no target condition,0.759,0.513,1.123,0.168
+indication: Immunology & inflammation,1.279,0.852,1.92,0.234
+indication: Infectious diseases & vaccines,0.857,0.562,1.308,0.474
+indication: Metabolic & endocrine,0.648,0.402,1.043,0.074
+indication: Nervous system & mental disorders,1.234,0.85,1.79,0.269
+indication: Oncology,2.141,1.557,2.944,0.0
+indication: Respiratory,0.722,0.428,1.217,0.221
+sponsor: Government / network / other,0.414,0.161,1.065,0.067
+sponsor: Industry,1.076,0.866,1.337,0.508
+post,2.668,2.316,3.073,0.0
+healthy_volunteers,0.586,0.456,0.752,0.0
+phase_1_2,1.697,1.44,2.0,0.0
+randomized,0.683,0.546,0.855,0.001
+blinded,0.913,0.639,1.305,0.616
+placebo,2.009,1.431,2.82,0.0
+biological,1.07,0.877,1.305,0.507
+multinational,1.699,1.335,2.163,0.0
+log_n_locations,0.943,0.839,1.059,0.321

@@ -1,0 +1,7 @@
+step,excluded,remaining
+"Downloaded from ClinicalTrials.gov (interventional, Phase 1 or 1/2, site text match)",0,11120
+"No site listed in UK, DE, FR, ES, NL, BE or IT (location search text match only)",6,11114
+Start date missing,33,11081
+Start before 2005,331,10750
+Start after 2022,1674,9076
+Status not Completed or Terminated,1116,7960

@@ -1,0 +1,43 @@
+feature,value,trials,terminated_pct
+sponsor_group,Academic / other,1630,13.7
+sponsor_group,Government / network / other,76,7.9
+sponsor_group,Industry,6254,14.8
+industry_collaborator,0,6830,14.5
+industry_collaborator,1,1130,14.5
+healthy_volunteers,0,4242,21.5
+healthy_volunteers,1,3718,6.5
+includes_children,0,7489,14.1
+includes_children,1,471,20.8
+male_only,0,6572,15.9
+male_only,1,1388,7.7
+phase_1_2,0,6221,11.7
+phase_1_2,1,1739,24.6
+randomized,0,3956,19.3
+randomized,1,4004,9.8
+masking_level,0,5280,16.7
+masking_level,1,360,8.3
+masking_level,2,1146,9.2
+masking_level,3,461,11.7
+masking_level,4,713,11.4
+placebo,0,5758,15.7
+placebo,1,2202,11.4
+biological,0,6937,14.0
+biological,1,1023,18.2
+intervention_model,CROSSOVER,1476,4.0
+intervention_model,FACTORIAL,40,5.0
+intervention_model,NOT_REPORTED,77,19.5
+intervention_model,PARALLEL,2831,14.4
+intervention_model,SEQUENTIAL,892,28.1
+intervention_model,SINGLE_GROUP,2644,15.9
+primary_purpose_group,BASIC_SCIENCE,901,7.0
+primary_purpose_group,NOT_REPORTED,318,1.9
+primary_purpose_group,OTHER,840,10.6
+primary_purpose_group,PREVENTION,329,6.7
+primary_purpose_group,TREATMENT,5572,17.5
+has_dmc_cat,no,4814,13.3
+has_dmc_cat,not reported,1232,10.5
+has_dmc_cat,yes,1914,20.2
+multinational,0,5375,9.1
+multinational,1,2585,25.7
+site_outside_europe,0,5984,10.3
+site_outside_europe,1,1976,27.2

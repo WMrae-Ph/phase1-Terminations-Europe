@@ -1,0 +1,62 @@
+category,pattern,flag,note
+Safety,\bsafety\b,,Generic safety mention (negation-checked)
+Safety,adverse (event|reaction|effect|finding)s?|\bsaes?\b|\bsusars?\b|side[- ]effects?,,
+Safety,toxicit\w*|\btoxic\b|hepatotox\w*|cardiotox\w*|nephrotox\w*|neurotox\w*|dose[- ]limiting|\bdlts?\b,,
+Safety,(poor|low|limited|unacceptable|insufficient|reduced) tolerab\w*|intoleran\w*|tolerability (issue|concern|problem|finding|signal)s?|not (well )?tolerated,,
+Safety,\bdeaths?\b|\bfatal\w*|\bdied\b|mortality,,
+Safety,qtc? prolong\w*|liver (injury|enzyme|toxicity|function)|transaminase|cytokine release|hypersensitivity reaction|infusion reaction,,
+Safety,(benefit|risk)\s*[- /:]\s*(risk|benefit),benefit_risk,Benefit-risk statements: counted as Safety and flagged for review
+Safety,pre-?clinical (finding|toxicolog|data|safety|result)s?|nonclinical (finding|toxicolog|safety)\w*,,
+Efficacy/Futility,futil\w*,,
+Efficacy/Futility,"(lack|absence|loss) of ([\w-]+ ){0,3}(efficacy|effect|benefit|activity|response|effectiveness|improvement)",,
+Efficacy/Futility,"(insufficient|limited|low|poor|inadequate|minimal|modest|no|suboptimal|disappointing) ([\w-]+ ){0,3}(efficacy|effect|benefit|activity|response|effectiveness|improvement)",,
+Efficacy/Futility,did not (show|demonstrate|meet|achieve|reach|support|provide|confirm)|failed to (show|demonstrate|meet|achieve|reach)|(not|un)likely to (meet|achieve|demonstrate|succeed|show),,
+Efficacy/Futility,\bineffective\b|\befficacy\b|\bnegative (results|outcome|data)\b|primary (endpoint|objective) (was )?not (met|achieved),,Generic efficacy mention (negation-checked)
+Recruitment,"(slow|low|poor|insufficient|inadequate|limited|lack of|lack|difficult\w*|challenging|problems? with|issues? with|failure to|unable to|inability to|not able to|not possible to) (\w+ ){0,2}(recruit\w*|enrol\w*|accru\w*|inclusion|inclusions|enrolment|enrollment)",,
+Recruitment,"(recruit\w*|enrol\w*|accrual|inclusion) (\w+ ){0,2}(issues?|problems?|difficult\w*|challenges?|rate|was (slow|low|poor|insufficient)|too slow|lower than)",,
+Recruitment,(not enough|few|insufficient number of|lack of|no) (eligible |suitable )?(patients|subjects|participants|volunteers),,
+Recruitment,"target (number|sample size|enrol\w*)[^.;]{0,30}not (reached|achieved|met|feasible)",,
+Recruitment,screen\w* fail\w*|\bfeasibility\b,,Feasibility counted as recruitment (cf. CTIS code 'Feasibility (recruitment issues etc)')
+Funding,\bfund(ing|s|ed)?\b|financ\w*|budget\w*|\bgrants?\b|lack of resources|\bcosts?\b,,
+Strategic/Business,\bbusiness\b|strateg\w*|portfolio|prioriti\w*|priorit(y|ies)|reprioriti\w*|\bcommercial\w*|pipeline|corporate|merger|acquisition|acquired|licen[cs]\w*|\bassets?\b|r ?& ?d|r\\&d|competitive|market\w*,,
+Strategic/Business,(discontinu|stop|terminat|halt|cease|pause|suspend|end)\w* (of )?(the )?(further |clinical |global )?development|development (program\w*|plan|project)?\s*(was |has been |is )?(discontinued|terminated|stopped|halted|deprioriti\w*|paused|ceased|ended),,
+Strategic/Business,"objectives have changed|change (in|of) (\w+ ){0,3}(strategy|priorit\w*|plans?|focus)",,
+Sponsor decision (unspecified),sponsor('?s)? decision|decision (of|by) (the )?sponsor|sponsor (has )?decided|(terminated|stopped|discontinued|halted) by (the )?sponsor|company decision|company decided|sponsor request,sponsor_decision,Only used if no other category matched
+COVID-19,covid\w*|pandemic|sars-cov-2|coronavirus,covid,"COVID-19 pandemic as stated reason (own category, D35)"
+Other,supply|manufactur\w*|drug (availability|product|shortage)|formulation|\bstability\b|\bimp\b (availability|supply|issue),supply,
+Other,regulator\w*|\bfda\b|\bema\b|\bmhra\b|competent authorit\w*|clinical hold|health authorit\w*|ethics committee|\birb\b,regulatory,
+Other,investigator|\bpi\b|site (closed|closure|issue|problem)s?|staff\w*|personnel,site_investigator,
+Other,protocol (amendment|change|design|deviation)s?|study design|re-?design|replaced (by|with)|new (study|protocol|trial|formulation)|superseded,design_change,
+Other,logistic\w*|operational|technical (issue|problem|reason)s?|data (quality|integrity)|\bgcp\b|compliance|inspection,operational,
+Other,"(not|will not|won't) (proceed|continue|move)\w* (to|into|with) (the )?(phase|part)|(phase|part) (i|1|a)\b[^.;]{0,30}(completed|finished)",phase_transition,Planned or decided stop after a study part
+Safety,abnormal (liver|laborator\w*|lab|hepatic)|liver (biochem\w*|tests?)|tachycardi\w*|arrhythmi\w*|cardiac (event|finding|signal)s?|hypersensitivit\w*|veno-?occlusive|security alert|safety alert|\bdiscomfort\b|tolerability,,Specific safety findings
+Efficacy/Futility,"no (sufficient |clear |meaningful |relevant )?(\w+ ){0,4}(signals?|evidence) (for|of) (\w+ ){0,2}(efficacy|activity|benefit)|failure to (meet|show|demonstrate|achieve)|negative (phase|results?|outcome|data|study)|(data|results?) (do(es)? not|don't|did not|didn't) (support|justify)|not sufficient to (satisfy|support|move|justify)",,
+Recruitment,"(unsuccessful|defect of|hardly|no new|no more|problems? with including|efforts to (increase|boost|improve)) (\w+ ){0,2}(recruit\w*|enrol\w*|patients|inclusion|including)|\bnot feasible\b|non-?feasib\w*|infeasib\w*",,
+Strategic/Business,"(program\w*|development|project|compound|asset|indications?)[^.;]{0,40}(discontinu\w*|terminat\w*|stopp\w*|withdrawn|halted|de-?prioriti\w*|re-?evaluat\w*)|cessation of (\w+ ){0,2}activit\w*|transfer (\w+ ){0,2}rights|pivot\w*|landscape|standard of care|competing (trials|products|compounds)|discontinue all",,Development programme stopped / competitive landscape
+Sponsor decision (unspecified),sponsor (terminated|stopped|discontinued|halted|ended)|sponsor('?s)? discretion|non-?safety reasons,sponsor_decision,Only used if no other category matched
+Other,availability of (the )?(investigational|study) (agent|drug|product)|\bimp expired|expir\w* (of )?(the )?(imp|drug|product),supply,
+Other,revision of (the )?protocol|protocol revision,design_change,
+Other,"(objectives?|endpoints?|goals?|aims?) (of the study )?(have been |has been |was |were |is )?(met|reached|achieved)|sufficient (\w+ ){0,3}(data|information|exposures?|evidence)|end of (the )?(study|trial) (was )?(reached|achieved)|according to the (definition|protocol)|as defined in the protocol",objectives_met,Study ended early because enough data were collected
+Other,(after|completion of) (the )?(completion of )?phase (i|1)\b|only phase (i|1)\b|not to continue (to|into|with)|without (moving|proceeding|progressing) (to|into)|optional (cohort|part)|expansion (part|portion|phase|cohort)|step two,phase_transition,
+Other,"(follow[- ]?up|roll-?over|transferr?\w*) (\w+ ){0,5}(new|another|separate|extension|continuation|long[- ]term|ltf)\b|followed up in|continuation study|extension study|moved to a (\w+ )?(study|trial)",follow_up_transfer,Participants moved to another / long-term follow-up study
+Other,(stop\w*|terminat\w*|termination|stopping) (rules?|criteria|criterion)|(rules?|criteria) (was |were )?(met|reached),stopping_criteria,"Protocol stopping criteria (safety, PK or efficacy) – review"
+Other,organi[sz]ational,operational,
+Safety,"unfavou?rable (\w+ ){0,3}(benefit|risk)|toxicolog\w* (finding|signal|result)s?|carcinogen\w*|injection[- ]site reaction|safety margins?|\birrs?\b|infusion[- ]related",,Specific safety findings (non-favorable normalised to unfavorable)
+Efficacy/Futility,"(efficacy|activity|benefit|response|effect|signals?)\w* (\w+ ){0,3}(insufficient\w*|very limited|limited|negligible|disappointing|not sufficient|not compelling)|no[- ]go\b|not provide (\w+ ){0,2}(clinical )?benefit|no added value|clinical viability|failed (\w+ ){0,2}response|unlikely to (reduce|result|provide|improve)|primary endpoint (could )?(no longer|not) be (reached|met)|did not fulfil\w*",,
+Recruitment,"(only (one|two|three|a few|\d+)|no) (\w+ ){0,1}(patients?|subjects?|participants?) (were |was |has been |have been )?(enrol\w*|recruit\w*|included|randomi[sz]ed)|(not enough|bad|failed to|fail\w* to|dificult\w*|challenge\w* for|no|reduced) (\w+ ){0,2}(recruit\w*|enrol\w*|inclusions?|accrual)|difficult to find (\w+ ){0,2}patient\w*|sites? not recruiting|(impact\w* on|prevents?) (\w+ ){0,3}recruitment|could not be (reached|achieved)[^.;]{0,40}recruitment|recruitment[^.;]{0,60}could not",,
+Strategic/Business,"development (plan|strategy|priorit\w*) (\w+ )?chang\w*|end of (\w+ ){0,2}development|(withdrawn|discontinu\w*|cessation|halt\w*|stop\w*|terminat\w*) (\w+ ){0,4}development|development project|all (\w+ ){0,4}trials (of|with) (\w+ ){0,3}(have been |were |are )?(halted|stopped|discontinued|terminated)|\bfocus\w* on\b|new (treatments?|therapeutic alternatives|therapies|agents)|clinical practice|scientific interest",,
+Funding,insolven\w*|bankrupt\w*|company (closed|closure|liquidat\w*)|liquidation,,Sponsor insolvency / closure
+Other,expir\w*|end of validity|validity of|stock|production (of|has)|discontinuation of production|product availability|to obtain,supply,
+Other,technic\w*|technique|device|inability to (reliably )?(measure|close)|\bassay\b,operational,
+Other,serious breach|political,regulatory,
+Other,\b(i?dmc|dsmb|data monitoring committee|data safety monitoring)\b,dmc_recommendation,"DMC recommendation – may be safety or efficacy, review"
+Other,interim (analysis|review|results?|assessment|data)|pending data analysis,interim_analysis,Interim analysis without stated direction – review
+Other,\bpk\b|pharmacokinetic\w*|drug exposure|\bexposure\b|\buptake\b,pk_exposure,PK / exposure-related
+Other,\bmtd\b (was )?(reached|achieved|determined|established)|achieved (the )?mtd|dose[- ]escalation was (finished|completed),objectives_met,Dose escalation completed / MTD reached
+Other,never (commenced|started|began)|not started,never_started,
+Other,administrative,administrative,Administrative reasons (no further detail)
+Recruitment,"challenges? (to |in )?(enrol\w*|recruit\w*)|could not be recruited|(poor|insufficient|low) (\w+ ){0,3}recruitment|recruitment (\w+ ){0,3}(lower|slower) than|(population|patients) (\w+ ){0,2}(more infrequent|rarer|less frequent) than",,
+Safety,risk of (further )?dosing|thrombocytopeni\w*|neutropeni\w*|complication event|arterial occlusion|\bbleeding\b|haemorrhag\w*|hemorrhag\w*,,
+Strategic/Business,"competition|re-?evaluation of (\w+ ){0,2}(indications?|program\w*|portfolio)|return (\w+ ){0,2}rights|program\w* (has been |was )?(put )?on hold|restructur\w*|re-?organi[sz]ation|therapeutic indication|discontinuation of (\w+ ){0,2}(clinical )?(investigation|development)|future development|scientific interest",,
+Other,"objective (has )?(already )?been answered|proof of (principle|concept) (was )?established|\brp2d\b (was |has been )?(determined|established|identified)|fully enrolled|completed inclusions|completion of follow-?up|sufficient to conclude|goal (\w+ ){0,6}was met",objectives_met,
+Other,clinical supplies|supplies,supply,

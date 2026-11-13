@@ -1,0 +1,13 @@
+# Raw data
+
+Raw registry exports are **not** committed. This file documents how to reproduce them.
+
+| Folder | Source | Method | Query / filters | Download date |
+|---|---|---|---|---|
+| `ctgov/` | ClinicalTrials.gov | API v2 `/studies` (notebook 01, Part A); query and fields stored in `ctgov_phase1_europe_raw_metadata.json` | `query.locn` = "United Kingdom" OR "Germany" OR "France" OR "Spain" OR "Netherlands" OR "Belgium" OR "Italy"; `filter.advanced` = `AREA[StudyType]INTERVENTIONAL AND AREA[Phase]PHASE1`; protocol section + MeSH browse modules + `hasResults` (no results section) | 2026-10-27 (API 2.0.5, data timestamp 2026-10-27T09:00:04); 11,120 records |
+| `ctgov_csv_check/` | ClinicalTrials.gov | Planned manual CSV cross-check – not performed; the download was cross-checked with a ClinicalTrials.gov search instead (Germany, Phase 1, Terminated: 333 vs. 332 in the API data; project log, Block 3) | – | – |
+| `eudract/` | EU Clinical Trials Register (EudraCT) | Plain-text download "Full Trial Details", 20 trials per page, `pages/page_001.txt` … `page_142.txt` (notebook 01, Part B); metadata in `euctr_phase1_metadata.json` | `/ctr-search/rest/download/full?query=&phase=phase-one&page=N&mode=current_page` | 2026-10-27; 2,823 trials, 6,083 country records |
+| `ctis/` | CTIS (euclinicaltrials.eu) | public search interface of the portal, not a documented API (notebook 01, Part C): `ctis_search_all_raw.json.gz` (all trials), `ctis_phase1_details_raw.jsonl.gz` (full records of Phase I trials); metadata in `ctis_metadata.json` | `POST /ctis-public-api/search` (empty criteria, sorted ASC + DESC), `GET /ctis-public-api/retrieve/{ctNumber}`; Phase I = phase text 'Human Pharmacology (Phase I)' or 'Phase I and Phase II (Integrated)' | 2026-10-28; 12,725 trials, 3,522 Phase I |
+| `eudract/results_pages/` | EU Clinical Trials Register | Summary download of the search filter "trials with results" (notebook 07, Part A), 20 trials per page, cached, pause 1.5 s | `/ctr-search/rest/download/summary?query=&phase=phase-one&resultsstatus=trials-with-results&page=N&mode=current_page` | 2026-11-09; 1,659 trials |
+| `eudract/visibility_check/` | EU Clinical Trials Register | Search pages for single EudraCT numbers (notebook 07, Part A): 40 sampled adult Phase 1 ClinicalTrials.gov trials + 3 positive controls, cached, pause 1.5 s | `/ctr-search/search?query=eudract_number:NNNN-NNNNNN-NN` (all phases) | 2026-11-09; 43 pages |
+| `ctgov_ctis_links/` | ClinicalTrials.gov | API v2 `/studies?filter.ids=…` for all NCT numbers linked to CTIS Phase I trials (notebook 07, Part B), batches of 100, cached | fields NCTId, OverallStatus, WhyStopped, Phase, StartDate, LastUpdatePostDate | 2026-11-09; 1,832 NCT numbers, 1,829 found |

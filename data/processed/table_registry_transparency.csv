@@ -1,0 +1,8 @@
+criterion,ClinicalTrials.gov,EU CTR (EudraCT),CTIS
+Adult Phase I trials publicly visible,"◐ yes, if registered (Phase 1 exempt from FDAAA 801 registration duty)","○ no – excluded by guideline 2008/C 168/02 (4 of 2,823 visible)","◐ yes, from decision; full data only 30 months after end of trial"
+Termination status,"● one global status per trial; not always updated (469 'Unknown', start 2005–2022)",◐ per member state only; trial level must be derived (D21 31.9 % vs. D22 17.8 %),● per member state + overall status
+Reason for termination,● free text (why_stopped); specific reason in 79 % of terminated trials,○ none in protocol data,"◐ coded; 'Sponsor Decision' only code in 79 %, no efficacy code"
+Results publicly available,◐ 23 % of analysis set (terminated 33 %); Phase 1 exempt from FDAAA results duty,"○ never for adult non-PIP Phase I (guideline 2012/C 302/03); the 80 % where due concern other (paediatric, PIP, Phase I/II) trials",◐ 20 % of ended trials; adult Category 1: published 30 months after end
+Machine-readable access,● documented REST API (v2),"◐ plain-text download, 20 trials per page",◐ public portal search interface (not a documented API)
+Link to the other registries,◐ 48 % of Phase 1 and 1/2 trials with a site in the 7 countries list a EudraCT/EU CT number,◐ 22 % list an NCT number (field A.5.2),◐ 31 % list an NCT number; 52 % linked from either side
+Period covered in this project,– start 2005–2022 (analysis set),– entered 2004–2023; new applications until 30 Jan 2023,– decisions 2022–2026; many trials still running

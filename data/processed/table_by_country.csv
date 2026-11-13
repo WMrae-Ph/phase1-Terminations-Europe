@@ -1,0 +1,8 @@
+country,trials,terminated,terminated %,CI low,CI high,safety-related,safety-related %,safety CI,healthy volunteers %,note,trials (single-country),terminated % (single-country),CI low (single-country),CI high (single-country)
+Italy,735,201,27.3,24.2,30.7,14,1.9,1.14–3.17,3.7,,120,15.8,10.4,23.4
+Spain,1382,360,26.0,23.8,28.4,28,2.03,1.41–2.91,8.3,,307,8.8,6.1,12.5
+France,1537,338,22.0,20.0,24.1,31,2.02,1.42–2.85,16.7,,565,12.9,10.4,15.9
+Netherlands,1147,189,16.5,14.4,18.7,20,1.74,1.13–2.68,38.6,,595,8.7,6.7,11.3
+Belgium,1200,187,15.6,13.6,17.7,16,1.33,0.82–2.15,48.4,,614,6.5,4.8,8.7
+United Kingdom,2853,423,14.8,13.6,16.2,40,1.4,1.03–1.90,52.3,,1817,9.2,8.0,10.7
+Germany,2238,301,13.4,12.1,14.9,17,0.76,0.47–1.21,42.3,,1357,8.1,6.8,9.7

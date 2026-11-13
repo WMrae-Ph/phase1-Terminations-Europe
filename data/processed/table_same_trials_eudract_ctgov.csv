@@ -1,0 +1,7 @@
+same trials (n = 542),n,% (95 % CI),table,pe_D21,CT.gov: Completed,CT.gov: Terminated,All
+ClinicalTrials.gov: Terminated,166.0,30.6 (26.9–34.6),shares,,,,
+EU CTR D21 lenient: Prematurely Ended,178.0,32.8 (29.0–36.9),shares,,,,
+EU CTR D22 strict: Prematurely Ended,69.0,12.7 (10.2–15.8),shares,,,,
+,,,crosstab,EU CTR: Completed,307.0,57.0,364.0
+,,,crosstab,EU CTR: Prematurely Ended (D21),69.0,109.0,178.0
+,,,crosstab,All,376.0,166.0,542.0

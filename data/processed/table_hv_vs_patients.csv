@@ -1,0 +1,9 @@
+subset,population,trials,terminated,terminated %,safety-related termination %,safety share of terminations,"p (chi², terminated)"
+All indications,Healthy volunteers,3718,240,6.5 % (5.7–7.3),0.9 % (0.6–1.2),13.3 % (9.6–18.2),6.8e-81
+All indications,Patients,4242,914,21.5 % (20.3–22.8),1.8 % (1.5–2.3),8.4 % (6.8–10.4),6.8e-81
+Excluding oncology,Healthy volunteers,3633,231,6.4 % (5.6–7.2),0.9 % (0.6–1.2),13.4 % (9.6–18.4),1.1e-18
+Excluding oncology,Patients,1647,227,13.8 % (12.2–15.5),1.0 % (0.6–1.6),7.5 % (4.7–11.7),1.1e-18
+"All indications, start 2005–2019",Healthy volunteers,3089,182,5.9 % (5.1–6.8),0.8 % (0.5–1.2),13.2 % (9.0–18.9),1.1e-52
+"All indications, start 2005–2019",Patients,3651,669,18.3 % (17.1–19.6),1.6 % (1.3–2.1),9.0 % (7.0–11.4),1.1e-52
+"Excluding oncology, start 2005–2019",Healthy volunteers,3034,175,5.8 % (5.0–6.7),0.8 % (0.5–1.1),13.1 % (8.9–18.9),2.2e-13
+"Excluding oncology, start 2005–2019",Patients,1435,174,12.1 % (10.5–13.9),0.9 % (0.5–1.5),7.5 % (4.4–12.4),2.2e-13

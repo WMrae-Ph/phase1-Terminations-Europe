@@ -1,0 +1,10 @@
+indication group,trials,terminated,terminated %,CI low,CI high,safety-related,safety-related %,safety CI,healthy volunteers %,note
+Oncology,2680,696,26.0,24.3,27.7,61,2.28,1.78–2.91,3.2,
+Immunology & inflammation,425,64,15.1,12.0,18.8,7,1.65,0.80–3.36,35.3,
+Nervous system & mental disorders,733,94,12.8,10.6,15.4,8,1.09,0.55–2.14,50.2,
+Other diseases,539,61,11.3,8.9,14.3,7,1.3,0.63–2.66,46.8,
+Cardiovascular,258,29,11.2,7.9,15.7,3,1.16,0.40–3.36,42.2,
+Infectious diseases & vaccines,661,55,8.3,6.4,10.7,7,1.06,0.51–2.17,74.9,
+Respiratory,351,26,7.4,5.1,10.6,2,0.57,0.16–2.05,65.5,
+Metabolic & endocrine,522,35,6.7,4.9,9.2,1,0.19,0.03–1.08,47.5,
+Healthy volunteers – no target condition,1791,94,5.2,4.3,6.4,13,0.73,0.42–1.24,99.4,

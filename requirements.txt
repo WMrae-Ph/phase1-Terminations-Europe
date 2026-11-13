@@ -1,0 +1,14 @@
+# Analysis environment (pinned versions used in this project)
+pandas==3.1.0
+numpy==2.5.4
+requests==2.34.2
+pyarrow==26.0.0
+matplotlib==3.11.2
+scikit-learn==1.9.1
+statsmodels==0.15.0
+tqdm==4.70.1
+
+# Executing notebooks
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0

@@ -1,0 +1,8 @@
+case_id,pattern,from_group,to_group,note
+B2,asthma|copd|chronic obstructive,Immunology & inflammation,Respiratory,Asthma is classified under both Respiratory Tract Diseases and Hypersensitivity in MeSH; decided: Respiratory
+B3,\bpain\b|analges|anaesthe|anesthe|nocicep,Other diseases,Nervous system & mental disorders,Pain is a MeSH symptom term; decided: Nervous system (ATC N)
+B6,psoria|atopic dermatitis|eczema|crohn|ulcerative colitis|inflammatory bowel|hidradenitis|alopecia areata|vitiligo,Other diseases,Immunology & inflammation,Immune-mediated skin and bowel diseases; decided: Immunology
+B8,myelodysplastic|\bmds\b|myelofibrosis|myeloproliferative|mastocytosis,Other diseases,Oncology,Myeloid neoplasms (WHO classification) not always under Neoplasms in MeSH; decided: Oncology
+B10,nash|nafld|masld|\bmash\b|non-alcoholic|nonalcoholic|metabolic dysfunction-associated|steatohepatitis|steatotic liver|fatty liver,Other diseases,Metabolic & endocrine,Metabolic liver disease (NAFLD/NASH; since 2023 MASLD/MASH); decided: Metabolic & endocrine
+FT,\baml\b|\bcll\b|\bcml\b|\bgist\b|\bnsclc\b|\bsclc\b|\bhcc\b|\brcc\b|\bcrc\b|neoplasia,Other diseases,Oncology,Free-text abbreviations for cancers (technical fix not a borderline case)
+FT,\bards\b|respiratory distress,Other diseases,Respiratory,Free-text abbreviation (technical fix)

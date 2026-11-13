@@ -1,0 +1,219 @@
+review_id,nct_id,stratum,inclusion_prob,weight,primary_reason,reason_categories,reason_Safety,reason_flags,expert_primary,expert_safety_related,expert_other,expert_comment,algo,expert,ambiguous,expert_safety,algo_safety,error_type
+1,NCT04865419,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+2,NCT01666600,A,1.0,1.0,Recruitment,Recruitment|Other,0,interim_analysis,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+3,NCT02040909,A,1.0,1.0,Efficacy/Futility,Efficacy/Futility|Other,0,interim_analysis,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+4,NCT01248858,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Safety,yes,,,Safety,Safety,False,1,1,
+5,NCT05215496,A,1.0,1.0,Other,Other,0,interim_analysis|stopping_criteria,Other,no,,ambiguous,Other,Other,True,0,0,
+6,NCT04022876,S,1.0,1.0,Safety,Safety,1,,Efficacy/Futility,no,,,Safety,Efficacy/Futility,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+7,NCT02457598,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Efficacy/Futility,no,,,Safety,Efficacy/Futility,False,0,1,Safety FP: other
+8,NCT01298830,S,1.0,1.0,Safety,Safety,1,,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+9,NCT02603419,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+10,NCT01384162,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Other,1,benefit_risk|interim_analysis|supply,Safety,yes,,,Safety,Safety,False,1,1,
+11,NCT01268059,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+12,NCT02974725,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+13,NCT03248479,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+14,NCT05153330,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Strategic/Business,no,,,Efficacy/Futility,Strategic/Business,False,0,0,Efficacy/Futility → Strategic/Business
+15,NCT02957032,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Recruitment,no,,,Strategic/Business,Recruitment,False,0,0,Strategic/Business → Recruitment
+16,NCT02317419,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+17,NCT03023527,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+18,NCT00857324,R,0.06936416184971098,14.416666666666668,Other,Other,0,phase_transition,Other,no,,,Other,Other,False,0,0,
+19,NCT03509584,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+20,NCT01209832,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+21,NCT01344902,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+22,NCT04033159,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+23,NCT01137799,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+24,NCT01561430,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+25,NCT04234867,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+26,NCT03879278,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+27,NCT04088734,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Efficacy/Futility,no,,,Safety,Efficacy/Futility,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+28,NCT02555085,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+29,NCT02711462,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+30,NCT04809467,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+31,NCT02014168,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+32,NCT03866109,S,1.0,1.0,Safety,Safety,1,benefit_risk,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+33,NCT02240355,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+34,NCT03145909,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+35,NCT04504435,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Efficacy/Futility,no,,,Strategic/Business,Efficacy/Futility,False,0,0,Strategic/Business → Efficacy/Futility
+36,NCT04199585,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+37,NCT03342859,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+38,NCT05429502,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+39,NCT02131506,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+40,NCT05262530,R,0.06936416184971098,14.416666666666668,Sponsor decision (unspecified),Sponsor decision (unspecified),0,sponsor_decision,Sponsor decision (unspecified),no,,,Sponsor decision (unspecified),Sponsor decision (unspecified),False,0,0,
+41,NCT02929498,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+42,NCT00447421,A,1.0,1.0,Other,Other,0,interim_analysis,Efficacy/Futility,no,,,Other,Efficacy/Futility,False,0,0,Other → Efficacy/Futility
+43,NCT03284723,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+44,NCT02034123,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+45,NCT01573247,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+46,NCT04258592,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+47,NCT02841540,A,1.0,1.0,Efficacy/Futility,Efficacy/Futility|Other,0,interim_analysis,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+48,NCT04793399,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+49,NCT02711137,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+50,NCT04179864,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility|Strategic/Business,0,sponsor_decision,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+51,NCT02427776,R,0.06936416184971098,14.416666666666668,Other,Other,0,supply,Other,no,,,Other,Other,False,0,0,
+52,NCT05084560,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+53,NCT05532046,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+54,NCT00440544,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+55,NCT03287817,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,ambiguous,Strategic/Business,Strategic/Business,True,0,0,
+56,NCT02554812,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Other,1,follow_up_transfer,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+57,NCT05098405,S,1.0,1.0,Safety,Safety,1,,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+58,NCT02905253,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+59,NCT00364429,R,0.06936416184971098,14.416666666666668,Not stated,Not stated,0,,Not stated,no,,,Not stated,Not stated,False,0,0,
+60,NCT02503683,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+61,NCT00858793,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+62,NCT02433392,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+63,NCT02083666,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+64,NCT05219513,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+65,NCT03290092,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+66,NCT01575782,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+67,NCT04404140,S,1.0,1.0,Safety,Safety|Strategic/Business,1,,Safety,yes,,,Safety,Safety,False,1,1,
+68,NCT03180762,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+69,NCT02401061,S,1.0,1.0,Safety,Safety,1,benefit_risk,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+70,NCT04912063,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+71,NCT02753218,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+72,NCT01237678,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Safety,yes,,,Safety,Safety,False,1,1,
+73,NCT01955629,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+74,NCT03330405,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Other,1,follow_up_transfer,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+75,NCT00543972,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Safety,yes,,,Safety,Safety,False,1,1,
+76,NCT01548924,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+77,NCT01483170,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+78,NCT02055924,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+79,NCT03125200,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+80,NCT04570631,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+81,NCT01813838,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+82,NCT04915846,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+83,NCT01313390,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+84,NCT04012255,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+85,NCT02584634,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Other,1,follow_up_transfer,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+86,NCT04394286,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Strategic/Business,no,,,Recruitment,Strategic/Business,False,0,0,Recruitment → Strategic/Business
+87,NCT02055690,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+88,NCT01441193,R,0.06936416184971098,14.416666666666668,Other,Other,0,regulatory,Other,no,,,Other,Other,False,0,0,
+89,NCT04870164,S,1.0,1.0,Safety,Safety|Other,1,pk_exposure,Safety,yes,,,Safety,Safety,False,1,1,
+90,NCT02566603,S,1.0,1.0,Safety,Safety,1,benefit_risk,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+91,NCT03311178,R,0.06936416184971098,14.416666666666668,Other,Other,0,unmatched,Other,no,,,Other,Other,False,0,0,
+92,NCT04303858,S,1.0,1.0,Safety,Safety,1,benefit_risk,Efficacy/Futility,no,,ambiguous,Safety,Efficacy/Futility,True,0,1,Safety FP: benefit-risk / risk wording without a safety problem
+93,NCT04501614,S,1.0,1.0,Safety,Safety,1,sponsor_decision,Safety,yes,,,Safety,Safety,False,1,1,
+94,NCT00473486,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+95,NCT00848601,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+96,NCT03245619,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+97,NCT05156229,S,1.0,1.0,Safety,Safety|Other,1,pk_exposure,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+98,NCT04940949,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+99,NCT01049932,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+100,NCT02997332,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+101,NCT02862431,R,0.06936416184971098,14.416666666666668,Other,Other,0,supply,Other,no,,,Other,Other,False,0,0,
+102,NCT01383746,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+103,NCT02994953,A,1.0,1.0,Efficacy/Futility,Efficacy/Futility|Other,0,stopping_criteria,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+104,NCT03722108,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Other,1,benefit_risk|dmc_recommendation,Safety,yes,,,Safety,Safety,False,1,1,
+105,NCT01160926,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+106,NCT03539484,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+107,NCT02566759,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+108,NCT02269436,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Other,1,benefit_risk|interim_analysis|supply,Safety,yes,,,Safety,Safety,False,1,1,
+109,NCT02822482,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+110,NCT01212887,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Safety,yes,,,Safety,Safety,False,1,1,
+111,NCT00401401,S,1.0,1.0,Safety,Safety|Other,1,objectives_met,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+112,NCT01195480,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+113,NCT03866187,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Strategic/Business,1,,Efficacy/Futility,no,,,Safety,Efficacy/Futility,False,0,1,Safety FP: other
+114,NCT00531076,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+115,NCT01337544,S,1.0,1.0,Safety,Safety,1,,Other,no,,ambiguous,Safety,Other,True,0,1,Safety FP: other
+116,NCT02286258,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+117,NCT04718675,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Safety,yes,,,Safety,Safety,False,1,1,
+118,NCT00985478,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+119,NCT03637764,A,1.0,1.0,Efficacy/Futility,Efficacy/Futility|Other,0,interim_analysis,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+120,NCT03752177,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+121,NCT03666988,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+122,NCT04990388,R,0.06936416184971098,14.416666666666668,Sponsor decision (unspecified),Sponsor decision (unspecified),0,sponsor_decision,Sponsor decision (unspecified),no,,,Sponsor decision (unspecified),Sponsor decision (unspecified),False,0,0,
+123,NCT05156034,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+124,NCT04424641,R,0.06936416184971098,14.416666666666668,Other,Other,0,objectives_met,Other,no,,,Other,Other,False,0,0,
+125,NCT02189174,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Safety,yes,,,Safety,Safety,False,1,1,
+126,NCT03422679,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+127,NCT04162600,S,1.0,1.0,Safety,Safety,1,,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+128,NCT01115803,S,1.0,1.0,Safety,Safety|Other,1,objectives_met|pk_exposure,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+129,NCT04009681,R,0.06936416184971098,14.416666666666668,Sponsor decision (unspecified),Sponsor decision (unspecified),0,sponsor_decision,Sponsor decision (unspecified),no,,,Sponsor decision (unspecified),Sponsor decision (unspecified),False,0,0,
+130,NCT01820325,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+131,NCT03317496,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Other,1,follow_up_transfer,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+132,NCT00860353,S,1.0,1.0,Safety,Safety|Strategic/Business|Other,1,operational,Strategic/Business,no,,,Safety,Strategic/Business,False,0,1,Safety FP: negation across 'terminated due to' not detected
+133,NCT03590860,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+134,NCT02108548,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+135,NCT04480879,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+136,NCT03996473,S,1.0,1.0,Safety,Safety|Recruitment,1,,Recruitment,no,,,Safety,Recruitment,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+137,NCT01077531,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+138,NCT01242943,S,1.0,1.0,Safety,Safety|Other,1,objectives_met,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+139,NCT01723813,R,0.06936416184971098,14.416666666666668,Other,Other,0,supply,Other,no,,,Other,Other,False,0,0,
+140,NCT04458311,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+141,NCT04586270,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Strategic/Business,1,,Safety,yes,,,Safety,Safety,False,1,1,
+142,NCT03797261,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+143,NCT01296555,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Strategic/Business|Other,1,sponsor_decision|supply,Safety,yes,,,Safety,Safety,False,1,1,
+144,NCT01668550,S,1.0,1.0,Safety,Safety|Other,1,objectives_met,Other,no,,,Safety,Other,False,0,1,Safety FP: other
+145,NCT03410927,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+146,NCT00713765,R,0.06936416184971098,14.416666666666668,Other,Other,0,never_started,Not stated,no,,,Other,Not stated,False,0,0,Other → Not stated
+147,NCT01999803,S,1.0,1.0,Safety,Safety|Efficacy/Futility|Other,1,benefit_risk|interim_analysis|supply,Safety,yes,,,Safety,Safety,False,1,1,
+148,NCT01808950,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+149,NCT03367819,A,1.0,1.0,Efficacy/Futility,Efficacy/Futility|Other,0,interim_analysis,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+150,NCT05494866,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Safety,yes,,,Safety,Safety,False,1,1,
+151,NCT02243787,S,1.0,1.0,Safety,Safety,1,sponsor_decision,Safety,yes,,,Safety,Safety,False,1,1,
+152,NCT02720120,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+153,NCT01855685,R,0.06936416184971098,14.416666666666668,Other,Other,0,unmatched,Other,no,,,Other,Other,False,0,0,
+154,NCT00704119,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+155,NCT03276728,S,1.0,1.0,Safety,Safety,1,sponsor_decision,Sponsor decision (unspecified),no,,,Safety,Sponsor decision (unspecified),False,0,1,Safety FP: negation across 'terminated due to' not detected
+156,NCT03869190,R,0.06936416184971098,14.416666666666668,Sponsor decision (unspecified),Sponsor decision (unspecified),0,sponsor_decision,Strategic/Business,no,,,Sponsor decision (unspecified),Strategic/Business,False,0,0,Sponsor decision (unspecified) → Strategic/Business
+157,NCT05338632,R,0.06936416184971098,14.416666666666668,Other,Other,0,unmatched,Recruitment,no,,,Other,Recruitment,False,0,0,Other → Recruitment
+158,NCT05683860,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Other,no,,ambiguous,Strategic/Business,Other,True,0,0,Strategic/Business → Other
+159,NCT00839059,A,1.0,1.0,Recruitment,Recruitment|Other,0,interim_analysis,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+160,NCT01911325,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Efficacy/Futility,no,,,Safety,Efficacy/Futility,False,0,1,Safety FP: other
+161,NCT00314002,R,0.06936416184971098,14.416666666666668,Other,Other,0,operational,Other,no,,,Other,Other,False,0,0,
+162,NCT02353143,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+163,NCT03329885,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+164,NCT01808482,S,1.0,1.0,Safety,Safety,1,,Efficacy/Futility,no,,,Safety,Efficacy/Futility,False,0,1,Safety FP: benefit-risk / risk wording without a safety problem
+165,NCT03769181,A,1.0,1.0,Other,Other,0,interim_analysis|sponsor_decision,Efficacy/Futility,no,,,Other,Efficacy/Futility,False,0,0,Other → Efficacy/Futility
+166,NCT05525286,S,1.0,1.0,Safety,Safety,1,benefit_risk|sponsor_decision,Safety,yes,,,Safety,Safety,False,1,1,
+167,NCT05394558,A,1.0,1.0,Other,Other,0,dmc_recommendation,Other,no,,,Other,Other,False,0,0,
+168,NCT04832139,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+169,NCT02188303,A,1.0,1.0,Other,Other,0,stopping_criteria,Other,no,,ambiguous,Other,Other,True,0,0,
+170,NCT04870112,R,0.06936416184971098,14.416666666666668,Other,Other,0,phase_transition,Sponsor decision (unspecified),no,,,Other,Sponsor decision (unspecified),False,0,0,Other → Sponsor decision (unspecified)
+171,NCT02350426,A,1.0,1.0,Strategic/Business,Strategic/Business|Other,0,stopping_criteria,Other,no,,ambiguous,Strategic/Business,Other,True,0,0,Strategic/Business → Other
+172,NCT04544995,R,0.06936416184971098,14.416666666666668,Sponsor decision (unspecified),Sponsor decision (unspecified),0,sponsor_decision,Sponsor decision (unspecified),no,,,Sponsor decision (unspecified),Sponsor decision (unspecified),False,0,0,
+173,NCT04002310,S,1.0,1.0,Safety,Safety,1,benefit_risk,Other,no,,,Safety,Other,False,0,1,Safety FP: benefit-risk / risk wording without a safety problem
+174,NCT01476085,R,0.06936416184971098,14.416666666666668,Other,Other,0,unmatched,Other,no,,,Other,Other,False,0,0,
+175,NCT04029688,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,sponsor_decision,Safety,yes,,,Safety,Safety,False,1,1,
+176,NCT01013168,S,1.0,1.0,Safety,Safety|Recruitment,1,,Efficacy/Futility,no,,,Safety,Efficacy/Futility,False,0,1,Safety FP: other
+177,NCT01598792,S,1.0,1.0,Safety,Safety|Strategic/Business|Other,1,supply,Safety,yes,,,Safety,Safety,False,1,1,
+178,NCT00915278,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+179,NCT04895748,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+180,NCT00369031,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+181,NCT05001022,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+182,NCT04916236,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Safety,yes,,,Safety,Safety,False,1,1,
+183,NCT02365662,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+184,NCT03140072,A,1.0,1.0,Other,Other,0,interim_analysis,Other,no,,,Other,Other,False,0,0,
+185,NCT03358407,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+186,NCT03605212,R,0.06936416184971098,14.416666666666668,Other,Other,0,regulatory,Other,no,,,Other,Other,False,0,0,
+187,NCT03026166,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+188,NCT04498247,A,1.0,1.0,Other,Other,0,interim_analysis,Other,no,,ambiguous,Other,Other,True,0,0,
+189,NCT04879017,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,sponsor_decision,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+190,NCT03846193,A,1.0,1.0,Efficacy/Futility,Efficacy/Futility|Other,0,interim_analysis,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+191,NCT03468777,A,1.0,1.0,Other,Other,0,interim_analysis,Other,no,,,Other,Other,False,0,0,
+192,NCT01557114,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+193,NCT05574166,S,1.0,1.0,Safety,Safety|Other,1,pk_exposure,Other,no,,,Safety,Other,False,0,1,Safety FP: safety mentioned as information (profile characterised / data sufficient)
+194,NCT04452006,A,1.0,1.0,Other,Other,0,interim_analysis|sponsor_decision,Sponsor decision (unspecified),no,,,Other,Sponsor decision (unspecified),False,0,0,Other → Sponsor decision (unspecified)
+195,NCT02106091,S,1.0,1.0,Safety,Safety,1,benefit_risk,Safety,yes,,,Safety,Safety,False,1,1,
+196,NCT02336048,S,1.0,1.0,Safety,Safety|Efficacy/Futility,1,,Other,no,,ambiguous,Safety,Other,True,0,1,Safety FP: benefit-risk / risk wording without a safety problem
+197,NCT03288545,R,0.06936416184971098,14.416666666666668,Other,Other,0,objectives_met|regulatory|sponsor_decision,Other,no,,,Other,Other,False,0,0,
+198,NCT01185548,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+199,NCT05510843,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+200,NCT04472897,A,1.0,1.0,Strategic/Business,Strategic/Business|Other,0,stopping_criteria,Other,no,,ambiguous,Strategic/Business,Other,True,0,0,Strategic/Business → Other
+201,NCT05205161,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+202,NCT03809039,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+203,NCT01360827,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+204,NCT04455230,R,0.06936416184971098,14.416666666666668,Funding,Funding|Strategic/Business,0,,Funding,no,,,Funding,Funding,False,0,0,
+205,NCT01022606,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+206,NCT01065623,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+207,NCT02100007,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+208,NCT04322227,R,0.06936416184971098,14.416666666666668,Efficacy/Futility,Efficacy/Futility,0,,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+209,NCT03110107,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+210,NCT05330286,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+211,NCT04287894,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,
+212,NCT02517359,A,1.0,1.0,Other,Other,0,pk_exposure|stopping_criteria,Other,no,,ambiguous,Other,Other,True,0,0,
+213,NCT05323110,R,0.06936416184971098,14.416666666666668,Strategic/Business,Strategic/Business,0,,Strategic/Business,no,,,Strategic/Business,Strategic/Business,False,0,0,
+214,NCT04349280,S,1.0,1.0,Safety,Safety|Other,1,site_investigator,Safety,yes,,,Safety,Safety,False,1,1,
+215,NCT05933070,R,0.06936416184971098,14.416666666666668,Recruitment,Recruitment,0,,Recruitment,no,,,Recruitment,Recruitment,False,0,0,
+216,NCT02603172,S,1.0,1.0,Safety,Safety|Other,1,design_change,Safety,yes,,,Safety,Safety,False,1,1,
+217,NCT04234113,A,1.0,1.0,Efficacy/Futility,Efficacy/Futility|Other,0,interim_analysis,Efficacy/Futility,no,,,Efficacy/Futility,Efficacy/Futility,False,0,0,
+218,NCT03139500,S,1.0,1.0,Safety,Safety,1,,Safety,yes,,,Safety,Safety,False,1,1,

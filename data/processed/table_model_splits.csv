@@ -1,0 +1,4 @@
+set,years,trials,positives,terminated ≤ 3 y %
+whole cohort (CV),2005–2020,7874,543,6.9
+temporal – training,2005–2015,4925,281,5.7
+temporal – test,2017–2020,2378,228,9.6

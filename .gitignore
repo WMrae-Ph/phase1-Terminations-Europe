@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Raw registry exports are not committed (size / terms of use).
+# See data/raw/README.md for how to reproduce them.
+data/raw/**/*
+!data/raw/README.md
+!data/raw/**/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
